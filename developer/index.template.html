@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7faf9" />
+  <meta name="description" content="NSW nursing revision: foundational questions, advanced clinical cases, written reflections and source-linked reading guides. No grades." />
+  <title>NSW Nursing Study Lab — Nursing revision made simple</title>
+  <style>@@CSS@@</style>
+
+
+
+
+
+
+
+
+
+<script>@@ART_DATA@@</script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">+</span><span><strong>Nursing Study Lab</strong><small>NSW learning edition</small></span></div>
+      <div class="topbar-right"><span class="review-tag">Updated 13 Nov 2026 · verification varies</span><button id="reference-toggle" type="button" class="source-top-button">Sources & safety <span aria-hidden="true">↗</span></button></div>
+    </header>
+
+    <div class="page-layout">
+      <aside class="sidebar" aria-label="Study navigation">
+        <div class="sidebar-kicker">STUDY TOPICS</div>
+        <nav class="module-navigation" id="module-nav" aria-label="Question modules"></nav>
+        <div class="side-bottom">
+          <button class="saved-link" id="saved-button" type="button"><span aria-hidden="true">☆</span> Saved questions <b id="saved-count">0</b></button>
+          <button class="saved-link" id="review-button" type="button"><span aria-hidden="true">↺</span> Review missed <b id="missed-count">0</b></button>
+          <div class="sidebar-progress"><div class="progress-line"><span>Questions explored</span><strong id="sidebar-progress-numbers">0 / 80</strong></div><div class="track"><div id="sidebar-progress-fill" class="fill"></div></div></div>
+          <button id="reset-button" class="text-button" type="button">Reset progress</button>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <div class="page-intro"><div class="eyebrow">SELF-PACED NURSING REVISION</div><h1>Learn at your own pace.</h1><p>Read, think through clinical cases, then compare your reasoning with the guidance.</p></div>
+        <section class="study-section" aria-label="Study questions">
+          <div class="section-heading"><div><div class="section-label">CURRENT TOPIC</div><h2 id="section-title">Clinical deterioration</h2><p id="module-summary">NSW Between the Flags, sepsis and patient concerns.</p></div><span id="section-count" class="question-total">6 QUESTIONS</span></div>
+          <div class="study-tool-row" aria-label="Study tools">
+            <button type="button" class="tool-pill" id="cases-button">Guided clinical cases</button>
+            <button type="button" class="tool-pill" id="rounds-button">Clinical reasoning rounds <span class="new-tag">6 CASES</span></button>
+            <button type="button" class="tool-pill" id="mix-button">10-question mixed revision</button>
+            <button type="button" class="tool-pill" id="studio-button">Learning studio <span id="studio-due"></span></button>
+            <label class="search-label" for="study-search">Search <input id="study-search" type="search" placeholder="Condition, topic or medicine" autocomplete="off" /></label>
+          </div>
+          <div id="search-results" class="search-results" hidden></div>
+          <div class="study-tabs" id="study-tabs" role="group" aria-label="Choose a study mode"><button type="button" class="view-tab active" id="view-questions" aria-pressed="true">Practice questions</button><button type="button" class="view-tab" id="view-reading" aria-pressed="false">Read topic guide</button></div>
+          <div id="quiz-root" aria-live="polite"></div>
+        </section>
+        <div class="bottom-tools"><div>Learning activity only: no grades, competency sign-off or patient instructions. Bookmarks and review lists stay on this device.</div><button id="all-sources-button" class="sources-button" type="button">View clinical sources ↗</button></div>
+        <footer class="footer-note">Educational practice tool only. Not an official NSW Health course, clinical decision tool or competency assessment. Refer to current guidelines and your local policies before patient care.</footer>
+      </main>
+    </div>
+  </div>
+
+  <dialog id="source-dialog" class="source-dialog" aria-labelledby="dialog-title">
+    <div class="modal-top"><div><div class="section-label">SOURCE INFORMATION</div><h2 id="dialog-title">Clinical guidance & safety</h2></div><button type="button" id="close-dialog" class="modal-close" aria-label="Close dialog">×</button></div>
+    <p>Questions summarise openly published NSW and Australian clinical guidance. They have not been independently approved or accredited by NSW Health. A qualified NSW clinician should review them before use in formal staff education.</p>
+    <p>Guidelines and local procedures can change. Follow workplace escalation pathways, policies, professional scope and competency requirements. This learning aid cannot replace practical training. All content remains awaiting qualified independent clinician review.</p>
+    <p><strong>NSW medicines-law update:</strong> The Medicines, Poisons and Therapeutic Goods Act 2022 and Regulation 2026 commenced on 5 November 2026. Earlier reference text may predate this transition. Verify the current legislation and any updated NSW Health directives before applying medication information.</p>
+    <div class="modal-source-list" id="modal-source-list"></div>
+    <div class="modal-bottom"><span>Study bank v1.7 • New specialty references reviewed 13 November 2026; older content has different verification dates • Independent clinical review pending</span><button type="button" id="done-dialog" class="action-button">Back to studying</button></div>
+  </dialog>
+<script>@@JS_0@@</script>
+<script>@@JS_1@@</script>
+<script>@@JS_2@@</script>
+<script>@@JS_3@@</script>
+<script>@@JS_4@@</script>
+<script>@@JS_5@@</script>
+<script>@@JS_6@@</script>
+<script>@@JS_7@@</script>
+<script>@@JS_8@@</script>
+<script>@@JS_9@@</script>
+<script>@@JS_10@@</script>
+</body>
+</html>

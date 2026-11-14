@@ -1,0 +1,32 @@
+{
+  "acs": {
+    "taskId": "8e41f6d6-38bf-4da3-a457-9f028877bc20",
+    "assetId": "fa12fa0d-ad6e-4aca-85b4-b867eee5f750",
+    "url": null
+  },
+  "resp": {
+    "taskId": "29a8e518-4f34-4cdd-ade4-848c91d0224f",
+    "assetId": "dfbf214c-b368-4a1b-862d-5e485f13d6fa",
+    "url": null
+  },
+  "renal": {
+    "taskId": "a2a065bc-2040-4799-ad3e-1e6fbccb8ed6",
+    "assetId": "4b216948-29bf-472f-9ae1-a5e20f26b2d2",
+    "url": null
+  },
+  "sepsis": {
+    "taskId": "bbfc9fab-6e52-447e-9890-d594cb055991",
+    "assetId": "f9929d26-8573-4dfc-8e94-1e0f51b243a1",
+    "url": null
+  },
+  "opioid": {
+    "taskId": "16230bc5-e5d3-48db-9d3e-89ee23837382",
+    "assetId": "b20d2bb0-0bc2-42ef-8301-44efce4ea279",
+    "url": null
+  },
+  "delirium": {
+    "taskId": "28c59c69-d07b-4146-9fb0-14cbf49c98ec",
+    "assetId": "d02d9d1a-2aab-4d8f-9052-a9081d0b5806",
+    "url": null
+  }
+}
